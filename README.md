@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- TABLE OF CONTENTS -->
 
-# 📗 coinX
+# 📗 OOP SCHOOL LIBRARY
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
@@ -55,49 +55,49 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 CoinX <a name="about-project"></a>
 
-
-** coinX** is  a web application that provides latest rates of crypto currencies. This aplication includes various details of crypto currencies. It was built with the coincap API    
+In this project, I built a school library app. In this initial step, I implemented the classes to represent students and teachers.  
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Reactjs<br>
-> Javascript<br>
+> RUBY<br>
+<!-- > Javascript<br>
 > Redux <br>
-> CSS
+> CSS -->
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://ruby-doc.org/">Ruby</a></li>
   </ul>
 </details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-- View rates of crypto Currencies
-- View details about selected crypro currencies
+- Add new students or teachers.
+- Add new books.
+- Save records of who borrowed a given book and when.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!-- ## 🚀 Live Demo <a name="live-demo"></a>
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://splendorous-tulumba-d36d87.netlify.app/)
+- [Live Demo Link](https://splendorous-tulumba-d36d87.netlify.app/) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## APP DEMONSTRATION
-- [Video Demonstraion](https://www.loom.com/share/df0bc6bc5c90463eb22f6d6f2fe152ce)
+<!-- ## APP DEMONSTRATION
+- [Video Demonstraion](https://www.loom.com/share/df0bc6bc5c90463eb22f6d6f2fe152ce) -->
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
+<!-- ## 💻 Getting Started <a name="getting-started"></a>
 
 
 To get a local copy up and running, follow these steps.
@@ -108,20 +108,20 @@ In order to run this project you need:
 
 ```sh
  npm start
-```
+``` -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
+
 Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/nunegabriel/XCoin.git
+  git clone https://github.com/nunegabriel/OOP-school-library.git
 ```
---->
+-
 
 ### Install
 
@@ -129,12 +129,12 @@ Install this project with:
 
 
 ```sh
-  cd Xcoin
+  cd OOP-school-library
   npm install
 ```
 
 
-### Usage
+<!-- ### Usage
 
 To run the project, execute the following command:
 
@@ -142,22 +142,22 @@ To run the project, execute the following command:
 
 ```sh
   npm start
-```
+``` -->
 
 
 ### Run tests
 
 To run tests, run the following command:
 
-> Track HTML linter errors run:
+> Track linter errors run:
 
-``` npx hint . ```
-> Track CSS linter errors run:
+``` rubocop ```
+<!-- > Track CSS linter errors run:
 
 ``` npx stylelint "**/*.{css,scss}" ```
 
 > To run functional test run:
-``` npm test ```
+``` npm test ``` -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -176,7 +176,12 @@ To run tests, run the following command:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
-- [ ] A search bar would be added
+Project 2: use the "Decorator" design pattern.
+Project 3: set up associations.
+Project 4: add basic UI.
+Project 5: refactor your code.
+Project 6: preserve data.
+Project 7: unit tests.
 
 <!-- CONTRIBUTING -->
 
@@ -217,6 +222,6 @@ Hat tip to anyone whose code was used.
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+<!-- _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
