@@ -8,13 +8,13 @@ class Person
     @parent_permission = true
   end
 
+  def can_use_services?
+    age >= 18 || parent_permission
+  end
+
   private
 
   def of_age?
     age >= 18
-  end
-
-  def can_use_services?
-    age >= 18 || parent_permission
   end
 end
