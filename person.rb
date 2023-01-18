@@ -1,9 +1,10 @@
 require './nameable'
 
-class Person<Nameable
+class Person < Nameable
   attr_accessor :id, :name, :age, :parent_permission
 
   def initialize(_name, age, _parent_permission)
+    super()
     @id = Random.rand(1..1000)
     @name = 'Unknown'
     @age = age
