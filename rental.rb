@@ -1,5 +1,6 @@
-# class Rental
-# attr_accessor :date
+class Rental
+attr_accessor :date
 
-# def initialize()
-# end
+def initialize(date)
+    @date = date
+end
