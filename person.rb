@@ -9,6 +9,8 @@ class Person < Nameable
     @name = 'Unknown'
     @age = age
     @parent_permission = true
+    @rentals = []    
+
   end
 
   def can_use_services?
