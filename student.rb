@@ -13,3 +13,6 @@ class Student < Person
     '¯(ツ)/¯'
   end
 end
+
+gabriel = Student.new('gabriel', 29,true,'phd')
+
