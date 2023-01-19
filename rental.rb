@@ -10,3 +10,4 @@ def initialize(date,person,book)
     book.rentals << self
 
 end
+end
