@@ -5,7 +5,6 @@ require './trimmer_decorator'
 
 class Person < Nameable
   attr_accessor :id, :name, :age, :parent_permission
-  attr_reader :book
 
   def initialize(_name, age, _parent_permission)
     super()
