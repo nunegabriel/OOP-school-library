@@ -1,7 +1,11 @@
 require './nameable'
+require './capital_decorator'
+require './rental'
+require './trimmer_decorator'
 
 class Person < Nameable
   attr_accessor :id, :name, :age, :parent_permission
+  attr_reader :book
 
   def initialize(_name, age, _parent_permission)
     super()
@@ -10,7 +14,6 @@ class Person < Nameable
     @age = age
     @parent_permission = true
     @rentals = []    
-
   end
 
   def can_use_services?
