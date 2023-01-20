@@ -1,4 +1,7 @@
 require './nameable'
+require './capital_decorator'
+require './rental'
+require './trimmer_decorator'
 
 class Person < Nameable
   attr_accessor :id, :name, :age, :parent_permission
@@ -9,6 +12,7 @@ class Person < Nameable
     @name = 'Unknown'
     @age = age
     @parent_permission = true
+    @rentals = []
   end
 
   def can_use_services?
@@ -23,5 +27,9 @@ class Person < Nameable
 
   def of_age?
     age >= 18
+  end
+
+  def add_rental(book, date)
+    Rental.new(date, book, self)
   end
 end
