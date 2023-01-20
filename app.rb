@@ -72,6 +72,19 @@ end
       end
     end
   end
+
+  def show_people(people)
+    unless people.empty?
+      people.each do |person|
+        puts "Name: #{person.name}, Age: #{person.age}, ID: #{person.id}"
+      end
+    else
+      puts 'No person found'
+    end
+  end
+  
+
+
   
 
 
