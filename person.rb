@@ -6,17 +6,17 @@ require './trimmer_decorator'
 class Person < Nameable
   attr_accessor :id, :name, :age, :parent_permission
 
-  def initialize(_name, age, _parent_permission)
+  def initialize(name='unknown', age, parent_permission: true)
     super()
     @id = Random.rand(1..1000)
-    @name = 'Unknown'
+    @name = name
     @age = age
-    @parent_permission = true
+    @parent_permission = parent_permission
     @rentals = []
   end
 
   def can_use_services?
-    age >= 18 || parent_permission
+    age >= 18 || @parent_permission
   end
 
   def correct_name
@@ -31,5 +31,6 @@ class Person < Nameable
 
   def add_rental(book, date)
     Rental.new(date, book, self)
+    rental.push(self)
   end
 end
