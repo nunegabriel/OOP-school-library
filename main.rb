@@ -1,6 +1,11 @@
 require './app'
+
 def main
-  funct(books = [], people = [], rental_data = [])
+  books = []
+  rental_data = []
+  people = []
+
+  funct(books, people, rental_data)
 end
 
 def display_menu
@@ -15,7 +20,7 @@ def display_menu
   puts '7: Exit'
 end
 
-def funct(books = [], people = [] , rental_data = [])
+def funct(books, people, rental_data)
   loop do
     display_menu
     option = gets.chomp.to_i
