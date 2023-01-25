@@ -208,8 +208,8 @@ Give a ⭐ if you like this project!
 * Thanks to the Microverse team for the great curriculum.
 * Thanks to the Code Reviewer(s) for the insightful feedbacks.
 * A great thanks to My coding partner, morning session team, and standup team for their contributions.
-Hat tip to anyone whose code was used.
-* Nelson Sakwa the author of the original design
+* Hat tip to anyone whose code was used.
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
