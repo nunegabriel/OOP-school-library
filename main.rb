@@ -10,9 +10,6 @@ class Starting < Function
   end
 end
 
-
-
-
 def display_menu
   puts 'Welcome to the school library'
   puts ' Please choose a task'
