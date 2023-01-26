@@ -1,11 +1,13 @@
 require './app'
+require_relative 'functions'
 
-def main
-  books = []
-  rental_data = []
-  people = []
-
-  funct(books, people, rental_data)
+class Starting < Function
+  def main
+    books = []
+    rental_data = []
+    people = []
+    funct(books, people, rental_data)
+  end
 end
 
 def display_menu
@@ -43,4 +45,5 @@ def funct(books, people, rental_data)
   end
 end
 
-main
+main = Starting.new
+main.main
