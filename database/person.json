@@ -30,5 +30,32 @@
     "type": "Student",
     "name": true,
     "age": 12
+  },
+  {
+    "id": 589,
+    "type": "Student",
+    "name": false,
+    "age": 13,
+    "rentals": [
+
+    ]
+  },
+  {
+    "id": 230,
+    "type": "Student",
+    "name": "Jolly",
+    "age": 15,
+    "rentals": [
+
+    ]
+  },
+  {
+    "id": 80,
+    "type": "Student",
+    "name": "Prince",
+    "age": 7,
+    "rentals": [
+
+    ]
   }
 ]
