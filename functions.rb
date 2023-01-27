@@ -12,8 +12,8 @@ def show_books(books)
   if @books.empty?
     puts 'No books found in library'
   else
-    books.each do |book|
-      puts 'title: #{book.title}, Author: #{book.author}'
+    books.each do |_book|
+      puts "title: #{book.title}, Author: #{book.author}"
     end
   end
 end
@@ -25,7 +25,6 @@ def add_people(people)
   age = gets.chomp.to_i
   print 'Name? '
   name = gets.chomp
-
   case person_to_add
   when 1
     print 'Do you have parent Permission? [Y/N]: '
