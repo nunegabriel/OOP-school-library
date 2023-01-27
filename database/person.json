@@ -1,0 +1,70 @@
+[
+  {
+    "id": 70,
+    "type": "Student",
+    "name": "Aybars",
+    "age": 6
+  },
+  {
+    "id": 20,
+    "type": "Teacher",
+    "name": "Ary",
+    "age": "25",
+    "rentals": [
+
+    ],
+    "specialization": "Maths"
+  },
+  {
+    "id": 703,
+    "type": "Teacher",
+    "name": "Sharon",
+    "age": "25",
+    "rentals": [
+
+    ],
+    "specialization": "Maths"
+  },
+  {
+    "id": 216,
+    "type": "Student",
+    "name": true,
+    "age": 12
+  },
+  {
+    "id": 589,
+    "type": "Student",
+    "name": false,
+    "age": 13,
+    "rentals": [
+
+    ]
+  },
+  {
+    "id": 230,
+    "type": "Student",
+    "name": "Jolly",
+    "age": 15,
+    "rentals": [
+
+    ]
+  },
+  {
+    "id": 80,
+    "type": "Student",
+    "name": "Prince",
+    "age": 7,
+    "rentals": [
+
+    ]
+  },
+  {
+    "id": 880,
+    "type": "Student",
+    "name": "Mane",
+    "age": 12,
+    "rentals": [
+
+    ]
+  }
+]

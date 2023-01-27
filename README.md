@@ -173,6 +173,13 @@ To run tests, run the following command:
 - Twitter: [@twitterhandle](https://twitter.com/_cornrow)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/gabriel-nunekpeku-623608173/)
 
+
+👤 **Brian Buntu Ludidi**
+
+- GitHub: [@Bludidi](https://github.com/Bludidi)
+- Twitter: [@BB_Ludidi](https://twitter.com/bb_ludidi)
+- LinkedIn: [Brian Ludidi](https://www.linkedin.com/in/brian-ludidi/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
@@ -208,8 +215,8 @@ Give a ⭐ if you like this project!
 * Thanks to the Microverse team for the great curriculum.
 * Thanks to the Code Reviewer(s) for the insightful feedbacks.
 * A great thanks to My coding partner, morning session team, and standup team for their contributions.
-Hat tip to anyone whose code was used.
-* Nelson Sakwa the author of the original design
+* Hat tip to anyone whose code was used.
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
