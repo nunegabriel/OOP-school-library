@@ -22,9 +22,9 @@ def main
       app.create_rental
     when 6
       app.list_rentals_for_id
-    when 7
+    else
       puts 'Thank you For using this app!'
-      exit
+      break
     end
   end
 end
