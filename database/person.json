@@ -1,0 +1,34 @@
+[
+  {
+    "id": 70,
+    "type": "Student",
+    "name": "Aybars",
+    "age": 6
+  },
+  {
+    "id": 20,
+    "type": "Teacher",
+    "name": "Ary",
+    "age": "25",
+    "rentals": [
+
+    ],
+    "specialization": "Maths"
+  },
+  {
+    "id": 703,
+    "type": "Teacher",
+    "name": "Sharon",
+    "age": "25",
+    "rentals": [
+
+    ],
+    "specialization": "Maths"
+  },
+  {
+    "id": 216,
+    "type": "Student",
+    "name": true,
+    "age": 12
+  }
+]
