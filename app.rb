@@ -30,7 +30,7 @@ class App
       puts 'There are no persons listed'
     else
       @persons.each_with_index do |person, index|
-        puts "#{index}) Name: #{person['name']}, ID: #{person['id']} Age: #{person['age']}"
+        puts "#{index}) Name: #{person['name']}, ID: #{person['id']}, Age: #{person['age']}"
       end
     end
   end
@@ -52,7 +52,8 @@ class App
         id: add_student.id,
         type: add_student.class,
         name: add_student.name,
-        age: add_student.age
+        age: add_student.age,
+        rentals: add_student.rental_data
       }
       save_person(@persons)
     when '2'
@@ -62,7 +63,7 @@ class App
       teacher_name = gets.chomp
       print 'Specialization: '
       specialization = gets.chomp
-      add_teacher = Teacher.new(teacher_age, teacher_name, specialization)
+      add_teacher = Teacher.new(teacher_name, teacher_age, specialization)
       @persons << {
         id: add_teacher.id,
         type: add_teacher.class,
