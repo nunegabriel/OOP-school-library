@@ -57,5 +57,14 @@
     "rentals": [
 
     ]
+  },
+  {
+    "id": 880,
+    "type": "Student",
+    "name": "Mane",
+    "age": 12,
+    "rentals": [
+
+    ]
   }
 ]
