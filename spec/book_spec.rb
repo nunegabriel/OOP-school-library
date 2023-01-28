@@ -1,23 +1,17 @@
-require_relative '../book'
+require './book'
 
-RSpec.describe Book do
-  # let(:book) {Book.new 'Title', 'Author'}
-  before :each do
-    @book = Book.new 'Title', 'Author'
-  end
+describe Book do
+  context 'When testing the Book class' do
+    book = Book.new('Gabz', 'John')
 
-  describe '#new' do
-    it 'takes two parameters and return a book object' do
-      # @book.should be_an_instance_of Book
-      expect(@book).to be_an_instance_of Book
+    it 'title of book' do
+      expect(book.title).to eq 'Gabz'
+    end
+    it 'author of book' do
+      expect(book.author).to eq 'John'
     end
   end
-
-  describe '#title' do
-    it 'returns the correct title' do
-      expect(@book.title).to eql('Title')
-    end
-  end
+end
 
   describe '#author' do
     it 'returns the correct author' do
