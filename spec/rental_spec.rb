@@ -12,5 +12,5 @@ describe Rental do
     it 'Expected to create rental for person' do
       expect(person.rental_data).to include(rented)
     end
-end
+  end
 end

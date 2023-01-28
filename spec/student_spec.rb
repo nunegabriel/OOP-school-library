@@ -9,9 +9,7 @@ describe Student do
     end
 
     it 'show age' do
-        expect(student.age).to eq 12
+      expect(student.age).to eq 12
     end
-
   end
 end
-
