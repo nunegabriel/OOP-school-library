@@ -1,12 +1,12 @@
 require 'capitalize_decorator'
 
 describe CapitalizeDecorator do
-  let(:nameable) { double('nameable', correct_name: 'john') }
+  let(:nameable) { double('nameable', name: 'ama') }
   let(:decorator) { CapitalizeDecorator.new(nameable) }
 
-  describe '#correct_name' do
+  describe '#name' do
     it 'should capitalize the output of the decorated object' do
-      expect(decorator.correct_name).to eq('John')
+      expect(decorator.name).to eq('Ama')
     end
   end
 end
